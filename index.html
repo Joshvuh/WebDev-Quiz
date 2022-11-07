@@ -17,7 +17,17 @@
     <main>
         <h1 class="questions">WebDev Quiz Challenge</h1>
         <div class="break"></div>
-        <section>Answer Web Development related coding questions within the time limit. Incorrect answers will reduce your score and timer by 10!</section>
+        <section class="answers">Answer Web Development related coding questions within the time limit. Incorrect answers will reduce your score and timer by 10!</section>
+        <div id="score-screen" class="hide">
+            <h2>Game over!</h2>
+            <p>Your final score is <span id="final-score"></span>.</p>
+            <p>
+              Enter initials: <input type="text" id="inputInitials" max="3" />
+              <div class="break"></div>
+              <button id="submitBtn">Submit</button>
+            </p>
+          </div>
+        <div class="answerResult"></div>
         <div class="break"></div>
         <button class="gameStart">Start Game</button>
     </main>

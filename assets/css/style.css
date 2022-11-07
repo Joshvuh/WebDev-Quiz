@@ -24,6 +24,10 @@ a {
     font-weight: bolder;
 }
 
+h1 {
+    margin-top: 20px;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -61,12 +65,36 @@ a:hover {
     font-weight: bolder;
 }
 
-.questions {
-    margin-top: 20px;
-}
-
 .break {
     flex-basis: 100%;
     height: 0;
     margin: 20px 0 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.answerResult {
+    border-top: 2px;
+}
+
+.submitBtn {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 10px;
+    width: 20%;
+    align-items: center;
+}
+
+#hide {
+    display: none;
 }
